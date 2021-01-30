@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Multiplayer Game</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
-    <script src="p5.play.js"></script>
+<!DOCTYPE html><html lang="en">
 
- <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <head>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/matter.js"></script>
+    <script src="libraries/p5.play.js"></script>
+
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
 
@@ -18,13 +17,12 @@
 <script>
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyCvEPr_FVepX-lidUJId-gSVI5Y7et6kUA",
-    authDomain: "c-37-52869.firebaseapp.com",
-    databaseURL: "https://c-37-52869-default-rtdb.firebaseio.com",
-    projectId: "c-37-52869",
-    storageBucket: "c-37-52869.appspot.com",
-    messagingSenderId: "778920405999",
-    appId: "1:778920405999:web:19d3ce54d3c23b5a96e41a"
+    apiKey: "AIzaSyCSTXepTJciNfY9A43vsIJ6OW1_zlj99S4",
+    authDomain: "fruit-catcher-5823c.firebaseapp.com",
+    projectId: "fruit-catcher-5823c",
+    storageBucket: "fruit-catcher-5823c.appspot.com",
+    messagingSenderId: "242371219459",
+    appId: "1:242371219459:web:dce9ebcb9e5a8ba412be36"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
@@ -33,9 +31,12 @@
     <script src="js/Player.js"></script>
     <script src="js/Form.js"></script>
     <script src="js/Game.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
   </head>
+
   <body>
     <script src="sketch.js"></script>
   </body>
+
 </html>
